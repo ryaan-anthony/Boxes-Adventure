@@ -24,7 +24,6 @@ Property = {
 
     click: function(event)
     {
-        log(Property.properties);
         if(Game.config.player.build && Game.config.player.rez_limit > 0){
 
             Game.config.player.rez_limit--;
